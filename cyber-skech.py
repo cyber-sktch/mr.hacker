@@ -2,7 +2,6 @@
 import random
 import hashlib
 import time 
-from colored import fg,bg,attr
 color = fg('green') 
 resrt = attr('reset')
 print(color  + "               _____________________________________________________________________________________")
