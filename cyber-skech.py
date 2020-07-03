@@ -1,9 +1,6 @@
 #crated by Joan Salomon and Sergio Dominguez
 import random
 import hashlib
-import time 
-from colored import fg
-color = fg('green') 
 print( "               _____________________________________________________________________________________")
 print( "               |                                  ___________________                              |")
 print( "               |                                 |    __      __     |                             |")
