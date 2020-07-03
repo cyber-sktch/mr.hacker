@@ -1,17 +1,20 @@
 #crated by Joan Salomon and Sergio Dominguez
 import random
 import hashlib
-print( "               _____________________________________________________________________________________")
-print( "               |                                  ___________________                              |")
-print( "               |                                 |    __      __     |                             |")
-print( "               |                                 |   /__\    /__\    |                             |")
-print( "               |                                 \        \_         /                             |")
-print( "               |                                  \                 /                              |")
-print( "               |                                   \  \__________/ /                               |")
-print( "               |                                    \             /                                |")
-print( "               |                                     \   \____/  /                                 |")
-print( "               |                                      \_varshil_/                                  |")
-print( "               |___________________________________________________________________________________|") 
+import time 
+from colored import fg
+color = fg('green') 
+print( color +  "     _____________________________________________________________________________________")
+print( color +  "     |                                  ___________________                              |")
+print( color +  "     |                                 |    __      __     |                             |")
+print( color +  "     |                                 |   /__\    /__\    |                             |")
+print( color +  "     |                                 \        \_         /                             |")
+print( color +  "     |                                  \                 /                              |")
+print( color +  "     |                                   \  \__________/ /                               |")
+print( color +  "     |                                    \             /                                |")
+print( color +  "     |                                     \   \____/  /                                 |")
+print( color +  "     |                                      \_varshil_/                                  |")
+print( color +  "     |___________________________________________________________________________________|") 
 
 print(  "                               hi,you are hacker")
 
@@ -88,7 +91,7 @@ print( "               |________________________________________________________
     
 
 
-print(  "                                this tool is run ")
+print(color +  "                                this tool is run ")
 name = input("yes and no:-")
 print("________________________________________________________________________")
 print("|                                                                      |")
@@ -207,3 +210,4 @@ while varshil:
             
             
             
+
