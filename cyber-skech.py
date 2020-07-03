@@ -2,8 +2,6 @@
 import random
 import hashlib
 import time 
-color = fg('green') 
-resrt = attr('reset')
 print(color  + "               _____________________________________________________________________________________")
 print(color  + "               |                                  ___________________                              |")
 print(color  + "               |                                 |    __      __     |                             |")
