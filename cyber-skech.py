@@ -123,7 +123,27 @@ elif varshil == "4":
 elif varshil == "5":
     print("tebalet")
 elif varshil == "6":
-    print("**************PASSWORD CRACKER******************") 
+   import hashlib 
+print("**************PASSWORD CRACKER ******************") 
+         
+# To check if the password 
+# found or not. 
+pass_found = 0                                      
+  
+input_hash = input("Enter the hashed password:") 
+  
+pass_doc = input("\nEnter passwords filename including path(root / home/):") 
+   
+try: 
+    # trying to open the password file. 
+    pass_file = open(pass_doc, 'r')               
+except: 
+    print("Error:") 
+    print(pass_doc, "is not found.\nPlease give the path of file correctly.")  
+    quit() 
+  
+  
+
 
 varshik = 100
 varshil = 100
